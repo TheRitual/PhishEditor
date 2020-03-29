@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1114477-8920-4117-98b4-c45f90d5f0ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/TestCalss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +248,7 @@
       <workItem from="1585501493949" duration="5734000" />
       <workItem from="1585507253640" duration="177000" />
       <workItem from="1585507454780" duration="8000" />
-      <workItem from="1585507608038" duration="2511000" />
+      <workItem from="1585507608038" duration="2578000" />
     </task>
     <task id="LOCAL-00001" summary="Created Project and integrated Graddle, Spring and JavaFX">
       <created>1585502504658</created>
@@ -287,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585508077132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed gradle build to contain local jar file dependency">
+      <created>1585510171733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585510171733</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +297,8 @@
     <MESSAGE value="Working Windowed app with Spring" />
     <MESSAGE value="Updated Gradle to create working JAR file" />
     <MESSAGE value="Updated Gradle to import PhishRider.jar lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Gradle to import PhishRider.jar lib" />
+    <MESSAGE value="Fixed gradle build to contain local jar file dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed gradle build to contain local jar file dependency" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Project_Structure" timestamp="1585501567779">
@@ -310,10 +309,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585501960695" />
-    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585508076243">
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585510171015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585508076243" />
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585510171015" />
     <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1585507295681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
