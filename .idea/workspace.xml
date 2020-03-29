@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1114477-8920-4117-98b4-c45f90d5f0ce" name="Default Changelist" comment="Created Project and integrated Graddle, Spring and JavaFX">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" afterDir="false" />
+    <list default="true" id="b1114477-8920-4117-98b4-c45f90d5f0ce" name="Default Changelist" comment="Updte">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +28,61 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PhishEditor" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,21 +116,102 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15479583" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager">
-    <configuration name="Editor" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.PhishEditor [bootRun]">
+    <configuration name="PhishEditor [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhishEditor [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhishEditor [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhishEditor [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PhishEditor-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/PhishEditor-1.0.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Editor" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="PhishEditor.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.theritual.phisher.editor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="eu.theritual.phisher.editor.Editor" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Editor" />
+        <item itemvalue="Gradle.PhishEditor [bootRun]" />
+        <item itemvalue="Gradle.PhishEditor [wrapper]" />
+        <item itemvalue="JAR Application.PhishEditor-1.0.jar" />
+        <item itemvalue="Gradle.PhishEditor [init]" />
+        <item itemvalue="Gradle.PhishEditor [compileJava]" />
       </list>
     </recent_temporary>
   </component>
@@ -111,8 +237,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585501488715</updated>
-      <workItem from="1585501493949" duration="1000000" />
+      <workItem from="1585501493949" duration="4427000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Project and integrated Graddle, Spring and JavaFX">
+      <created>1585502504658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585502504658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,45 +266,61 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585501960695" />
-    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585502465726">
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585502893009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585502465726" />
-    <state width="1322" height="188" key="GridCell.Tab.0.bottom" timestamp="1585502465790">
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585502893009" />
+    <state width="1322" height="111" key="GridCell.Tab.0.bottom" timestamp="1585505907034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585502465790" />
-    <state width="1322" height="188" key="GridCell.Tab.0.center" timestamp="1585502465790">
+    <state width="1322" height="111" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585505907034" />
+    <state width="1322" height="111" key="GridCell.Tab.0.center" timestamp="1585505907033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585502465790" />
-    <state width="1322" height="188" key="GridCell.Tab.0.left" timestamp="1585502465790">
+    <state width="1322" height="111" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585505907033" />
+    <state width="1322" height="111" key="GridCell.Tab.0.left" timestamp="1585505907033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585502465790" />
-    <state width="1322" height="188" key="GridCell.Tab.0.right" timestamp="1585502465790">
+    <state width="1322" height="111" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585505907033" />
+    <state width="1322" height="111" key="GridCell.Tab.0.right" timestamp="1585505907033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585502465790" />
-    <state width="1322" height="188" key="GridCell.Tab.1.bottom" timestamp="1585502465791">
+    <state width="1322" height="111" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585505907033" />
+    <state width="1322" height="227" key="GridCell.Tab.1.bottom" timestamp="1585503292259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585502465791" />
-    <state width="1322" height="188" key="GridCell.Tab.1.center" timestamp="1585502465790">
+    <state width="1322" height="227" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585503292259" />
+    <state width="1322" height="227" key="GridCell.Tab.1.center" timestamp="1585503292259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585502465790" />
-    <state width="1322" height="188" key="GridCell.Tab.1.left" timestamp="1585502465790">
+    <state width="1322" height="227" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585503292259" />
+    <state width="1322" height="227" key="GridCell.Tab.1.left" timestamp="1585503292259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585502465790" />
-    <state width="1322" height="188" key="GridCell.Tab.1.right" timestamp="1585502465791">
+    <state width="1322" height="227" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585503292259" />
+    <state width="1322" height="227" key="GridCell.Tab.1.right" timestamp="1585503292259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="188" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585502465791" />
+    <state width="1322" height="227" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585503292259" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1585505573713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585505573713" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585502743198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585502743198" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1585502511223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585502511223" />
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1585501496119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585501496119" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1585503595408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585503595408" />
   </component>
 </project>

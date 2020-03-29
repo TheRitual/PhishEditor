@@ -1,6 +1,20 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:2.0.4.RELEASE"
+    }
+}
+
+plugins {
+    id 'java'
+}
+
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+
 
 group 'eu.theritual.phisher.editor'
 version '1.0'
@@ -18,12 +32,23 @@ dependencies {
 
 }
 
+jar{
+    enabled = true
+    manifest {
+        attributes(
+                'Main-Class': 'eu.theritual.phisher.editor.Editor'
+        )
+    }
 
-buildscript {
-    repositories {
-        mavenCentral()
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
-    dependencies {
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:2.0.4.RELEASE"
-    }
+}
+
+springBoot {
+    mainClassName = 'eu.theritual.phisher.editor.Editor'
+}
+
+bootJar {
+    mainClassName = 'eu.theritual.phisher.editor.Editor'
 }

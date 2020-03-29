@@ -1,10 +1,7 @@
 package eu.theritual.phisher.editor;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,6 +15,7 @@ public class Editor extends Application {
     private ConfigurableApplicationContext springContext;
 
     public static void main(String[] args) {
+        System.out.println("Running!");
         launch(args);
     }
 
