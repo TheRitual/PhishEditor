@@ -32,14 +32,19 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile("org.springframework.boot:spring-boot-starter")
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    implementation files('libs/PhishRider.jar')
+    compile(fileTree(include: ['*.jar'], dir: 'libs'))
+
 }
+
 
 jar{
     enabled = true
@@ -48,7 +53,6 @@ jar{
                 'Main-Class': 'eu.theritual.phisher.editor.Editor'
         )
     }
-
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
@@ -60,4 +64,7 @@ springBoot {
 
 bootJar {
     mainClassName = 'eu.theritual.phisher.editor.Editor'
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }

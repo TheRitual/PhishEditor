@@ -2,30 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1114477-8920-4117-98b4-c45f90d5f0ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/TestCalss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhishRider.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/PhishRider.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/PhishEditor-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/maven/eu.theritual.phisher.editor/PhishEditor/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/thinJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp1129630709.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/TestCalss.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -141,19 +146,25 @@
       <recent name="C:\Users\RITUAL\Documents\Java-Projects\PhishEditor\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PhishEditor [bootRun]">
-    <configuration name="TestCalss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eu.theritual.phisher.editor.TestCalss" />
-      <module name="PhishEditor.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.theritual.phisher.editor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="JAR Application.PhishEditor-1.0.jar">
+    <configuration name="PhishEditor [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="PhishEditor [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -225,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PhishEditor [bootRun]" />
-        <item itemvalue="Gradle.PhishEditor [build]" />
-        <item itemvalue="Application.TestCalss" />
-        <item itemvalue="Gradle.PhishEditor [clean]" />
         <item itemvalue="JAR Application.PhishEditor-1.0.jar" />
+        <item itemvalue="Gradle.PhishEditor [bootJar]" />
+        <item itemvalue="Gradle.PhishEditor [bootRun]" />
+        <item itemvalue="Gradle.PhishEditor [clean]" />
+        <item itemvalue="Gradle.PhishEditor [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +257,7 @@
       <workItem from="1585501493949" duration="5734000" />
       <workItem from="1585507253640" duration="177000" />
       <workItem from="1585507454780" duration="8000" />
-      <workItem from="1585507608038" duration="428000" />
+      <workItem from="1585507608038" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="Created Project and integrated Graddle, Spring and JavaFX">
       <created>1585502504658</created>
@@ -269,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585507195785</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Gradle to import PhishRider.jar lib">
+      <created>1585508077132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585508077132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +298,8 @@
     <MESSAGE value="Created Project and integrated Graddle, Spring and JavaFX" />
     <MESSAGE value="Working Windowed app with Spring" />
     <MESSAGE value="Updated Gradle to create working JAR file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Gradle to create working JAR file" />
+    <MESSAGE value="Updated Gradle to import PhishRider.jar lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Gradle to import PhishRider.jar lib" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Project_Structure" timestamp="1585501567779">
@@ -291,30 +310,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585501960695" />
-    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585507195123">
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585508076243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585507195123" />
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585508076243" />
     <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1585507295681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585507295681" />
-    <state width="1322" height="182" key="GridCell.Tab.0.bottom" timestamp="1585508041888">
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom" timestamp="1585510117710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585508041888" />
-    <state width="1322" height="182" key="GridCell.Tab.0.center" timestamp="1585508041872">
+    <state width="1322" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585510117710" />
+    <state width="1322" height="181" key="GridCell.Tab.0.center" timestamp="1585510117709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585508041872" />
-    <state width="1322" height="182" key="GridCell.Tab.0.left" timestamp="1585508041872">
+    <state width="1322" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585510117709" />
+    <state width="1322" height="181" key="GridCell.Tab.0.left" timestamp="1585510117709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585508041872" />
-    <state width="1322" height="182" key="GridCell.Tab.0.right" timestamp="1585508041872">
+    <state width="1322" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585510117709" />
+    <state width="1322" height="181" key="GridCell.Tab.0.right" timestamp="1585510117709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585508041872" />
+    <state width="1322" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585510117709" />
     <state width="1322" height="227" key="GridCell.Tab.1.bottom" timestamp="1585503292259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

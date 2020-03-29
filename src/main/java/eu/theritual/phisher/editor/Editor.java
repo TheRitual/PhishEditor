@@ -1,4 +1,5 @@
 package eu.theritual.phisher.editor;
+import eu.theritual.phisher.rider.*;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -37,8 +38,8 @@ public class Editor extends Application {
         primaryStage.setTitle("Hello World");
         Group root = new Group();
         TextArea ta = new TextArea();
-        //PhishRiderDeck deck = (PhishRiderDeck) Utils.load(new File("xxx.json"));
-        //deck.show();
+        Deck deck =  Utils.load(new File("xxx.json"));
+        deck.show();
         Scene scene = new Scene(root, 800, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
