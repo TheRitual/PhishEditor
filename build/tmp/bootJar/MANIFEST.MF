@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Start-Class: eu.theritual.phisher.editor.Editor
+Main-Class: org.springframework.boot.loader.JarLauncher
+

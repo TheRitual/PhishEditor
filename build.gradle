@@ -1,9 +1,16 @@
 buildscript {
+    ext {
+        springBootPlugin = 'org.springframework.boot:spring-boot-gradle-plugin'
+        springBootVersion = '2.0.4.RELEASE'
+        thinPlugin = 'org.springframework.boot.experimental:spring-boot-thin-gradle-plugin'
+        thinVersion = '1.0.11.RELEASE'
+    }
     repositories {
         mavenCentral()
     }
     dependencies {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:2.0.4.RELEASE"
+        classpath("${thinPlugin}:${thinVersion}")
     }
 }
 
@@ -14,6 +21,8 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'maven'
+apply plugin: 'org.springframework.boot.experimental.thin-launcher'
 
 
 group 'eu.theritual.phisher.editor'
