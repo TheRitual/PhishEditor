@@ -35,14 +35,7 @@ public class Editor extends Application {
 
     @Override
     public void start(Stage primaryStage){
-        primaryStage.setTitle("Hello World");
-        Group root = new Group();
-        TextArea ta = new TextArea();
-        Deck deck =  Utils.load(new File("xxx.json"));
-        deck.show();
-        Scene scene = new Scene(root, 800, 600);
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        EditorWindow appWindow = new EditorWindow(primaryStage);
     }
 
     @Override

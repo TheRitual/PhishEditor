@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1114477-8920-4117-98b4-c45f90d5f0ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/EditorWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/ScreenSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/theritual/phisher/editor/Editor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +146,7 @@
       <recent name="C:\Users\RITUAL\Documents\Java-Projects\PhishEditor\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.PhishEditor-1.0.jar">
+  <component name="RunManager" selected="Gradle.PhishEditor [bootRun]">
     <configuration name="PhishEditor [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -228,10 +236,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.PhishEditor-1.0.jar" />
-        <item itemvalue="Gradle.PhishEditor [bootJar]" />
         <item itemvalue="Gradle.PhishEditor [bootRun]" />
         <item itemvalue="Gradle.PhishEditor [clean]" />
+        <item itemvalue="JAR Application.PhishEditor-1.0.jar" />
+        <item itemvalue="Gradle.PhishEditor [bootJar]" />
         <item itemvalue="Gradle.PhishEditor [build]" />
       </list>
     </recent_temporary>
@@ -249,7 +257,9 @@
       <workItem from="1585501493949" duration="5734000" />
       <workItem from="1585507253640" duration="177000" />
       <workItem from="1585507454780" duration="8000" />
-      <workItem from="1585507608038" duration="2610000" />
+      <workItem from="1585507608038" duration="2674000" />
+      <workItem from="1585638742543" duration="45000" />
+      <workItem from="1585638807732" duration="3147000" />
     </task>
     <task id="LOCAL-00001" summary="Created Project and integrated Graddle, Spring and JavaFX">
       <created>1585502504658</created>
@@ -293,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585510224273</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed gradle build to contain local jar file dependency">
+      <created>1585510236955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585510236955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,34 +330,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585501567779" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585501960695">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585640951336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585501960695" />
-    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585510223737">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585640951336" />
+    <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585638753097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585510223737" />
+    <state x="363" y="91" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1585638753097" />
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1585510236486">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585510236486" />
     <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1585507295681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585507295681" />
-    <state width="1322" height="181" key="GridCell.Tab.0.bottom" timestamp="1585510117710">
+    <state width="1322" height="180" key="GridCell.Tab.0.bottom" timestamp="1585641629437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585510117710" />
-    <state width="1322" height="181" key="GridCell.Tab.0.center" timestamp="1585510117709">
+    <state width="1322" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585641629437" />
+    <state width="1322" height="180" key="GridCell.Tab.0.center" timestamp="1585641629436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="181" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585510117709" />
-    <state width="1322" height="181" key="GridCell.Tab.0.left" timestamp="1585510117709">
+    <state width="1322" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585641629436" />
+    <state width="1322" height="180" key="GridCell.Tab.0.left" timestamp="1585641629436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="181" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585510117709" />
-    <state width="1322" height="181" key="GridCell.Tab.0.right" timestamp="1585510117709">
+    <state width="1322" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585641629436" />
+    <state width="1322" height="180" key="GridCell.Tab.0.right" timestamp="1585641629436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="181" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585510117709" />
+    <state width="1322" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585641629436" />
     <state width="1322" height="227" key="GridCell.Tab.1.bottom" timestamp="1585503292259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -365,17 +386,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585502743198" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1585505970175">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1585510243370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585505970175" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1585507454432">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585510243370" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1585638808951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585507454432" />
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1585503595408">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585638808951" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1585639933531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585503595408" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585639933531" />
   </component>
 </project>
