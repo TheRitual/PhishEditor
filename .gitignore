@@ -22,4 +22,5 @@
 hs_err_pid*
 
 # added
-build
+/build/
+/.idea/
