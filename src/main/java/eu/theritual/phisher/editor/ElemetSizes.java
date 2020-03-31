@@ -1,9 +1,9 @@
 package eu.theritual.phisher.editor;
 
-public class ScreenSize {
+public class ElemetSizes {
     private int minimumWidth, maximumWidth, minimumHeight, maximumHeight, width, height;
 
-    public ScreenSize(int width,int height, int maximumWidth, int maximumHeight, int minimumWidth, int minimumHeight) {
+    public ElemetSizes(int width, int height, int maximumWidth, int maximumHeight, int minimumWidth, int minimumHeight) {
         this.minimumWidth = minimumWidth;
         this.maximumWidth = maximumWidth;
         this.minimumHeight = minimumHeight;
@@ -12,15 +12,15 @@ public class ScreenSize {
         this.height = height;
     }
 
-    public ScreenSize(int width, int height, int maximumWidth, int maximumHeight) {
+    public ElemetSizes(int width, int height, int maximumWidth, int maximumHeight) {
         this(width, height, maximumWidth,maximumHeight,1,1);
     }
 
-    public ScreenSize(int width, int height) {
+    public ElemetSizes(int width, int height) {
         this(width, height, 9000,9000,1,1);
     }
 
-    public ScreenSize() {
+    public ElemetSizes() {
         this(800,600, 9000, 9000,1,1);
     }
 

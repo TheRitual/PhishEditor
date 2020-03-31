@@ -5,7 +5,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class EditorWindow {
-    ScreenSize windowSize = new ScreenSize(1000,700, 1000,700,800, 600);
+    ElemetSizes windowSize = new ElemetSizes(1000,700, 1000,700,800, 600);
     public EditorWindow(Stage primaryStage) {
         primaryStage.setTitle("Phish Editor");
         primaryStage.setMaxHeight(windowSize.getMaximumHeight());
